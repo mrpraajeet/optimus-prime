@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.dto
+package optimus.dto
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import java.time.Instant

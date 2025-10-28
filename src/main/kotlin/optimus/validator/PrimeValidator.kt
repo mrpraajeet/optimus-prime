@@ -1,6 +1,6 @@
-package dev.praajeet.optimus.validator
+package optimus.validator
 
-import dev.praajeet.optimus.service.PrimeService
+import optimus.service.PrimeService
 import jakarta.validation.ConstraintValidator
 import jakarta.validation.ConstraintValidatorContext
 import org.springframework.stereotype.Component

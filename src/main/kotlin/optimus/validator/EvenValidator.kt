@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.validator
+package optimus.validator
 
 import jakarta.validation.ConstraintValidator
 import jakarta.validation.ConstraintValidatorContext

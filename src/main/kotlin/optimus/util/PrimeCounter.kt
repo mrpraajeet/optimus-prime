@@ -1,7 +1,7 @@
-package dev.praajeet.optimus.util
+package optimus.util
 
 import ch.obermuhlner.math.big.BigDecimalMath
-import dev.praajeet.optimus.util.PrimeTester.isPrime
+import optimus.util.PrimeTester.isPrime
 import java.math.BigDecimal
 import java.math.MathContext
 import kotlin.math.abs

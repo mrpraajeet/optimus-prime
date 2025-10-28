@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.validator
+package optimus.validator
 
 import jakarta.validation.Constraint
 import jakarta.validation.Payload
@@ -6,10 +6,10 @@ import kotlin.reflect.KClass
 
 @Target(AnnotationTarget.FIELD, AnnotationTarget.VALUE_PARAMETER)
 @Retention(AnnotationRetention.RUNTIME)
-@Constraint(validatedBy = [PrimeValidator::class])
+@Constraint(validatedBy = [EvenValidator::class])
 @MustBeDocumented
-annotation class Prime(
-    val message: String = "Input must be a prime number",
+annotation class Even(
+    val message: String = "Input must be an even number",
     val groups: Array<KClass<*>> = [],
     val payload: Array<KClass<out Payload>> = []
 )

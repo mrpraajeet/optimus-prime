@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.dto
+package optimus.dto
 
 data class PrimeCount(
     val count: Long,

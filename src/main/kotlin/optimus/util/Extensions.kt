@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.util
+package optimus.util
 
 val Long.Companion.MIN_PRIME: Long
     get() = 2L

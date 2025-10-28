@@ -1,9 +1,9 @@
-package dev.praajeet.optimus.controller
+package optimus.controller
 
-import dev.praajeet.optimus.dto.ExceptionResponse
-import dev.praajeet.optimus.service.PrimeService
-import dev.praajeet.optimus.validator.Even
-import dev.praajeet.optimus.validator.Prime
+import optimus.dto.ExceptionResponse
+import optimus.service.PrimeService
+import optimus.validator.Even
+import optimus.validator.Prime
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.Parameter
 import io.swagger.v3.oas.annotations.media.Content

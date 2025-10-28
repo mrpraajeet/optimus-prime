@@ -1,8 +1,8 @@
-package dev.praajeet.optimus.controller
+package optimus.controller
 
-import dev.praajeet.optimus.dto.GoldbachPair
-import dev.praajeet.optimus.service.PrimeService
-import dev.praajeet.optimus.validator.Even
+import optimus.dto.GoldbachPair
+import optimus.service.PrimeService
+import optimus.validator.Even
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.Parameter
 import io.swagger.v3.oas.annotations.media.Content

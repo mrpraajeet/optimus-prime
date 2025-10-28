@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.controller
+package optimus.controller
 
 import io.swagger.v3.oas.annotations.Hidden
 import org.springframework.stereotype.Controller

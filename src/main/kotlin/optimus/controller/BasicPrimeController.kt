@@ -1,9 +1,9 @@
-package dev.praajeet.optimus.controller
+package optimus.controller
 
-import dev.praajeet.optimus.dto.PrimeCount
-import dev.praajeet.optimus.service.PrimeService
-import dev.praajeet.optimus.util.MAX_PRIME
-import dev.praajeet.optimus.util.MIN_PRIME
+import optimus.dto.PrimeCount
+import optimus.service.PrimeService
+import optimus.util.MAX_PRIME
+import optimus.util.MIN_PRIME
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.Parameter
 import io.swagger.v3.oas.annotations.media.Content

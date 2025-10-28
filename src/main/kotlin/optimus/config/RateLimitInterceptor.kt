@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.config
+package optimus.config
 
 import io.github.resilience4j.ratelimiter.RateLimiter
 import io.github.resilience4j.ratelimiter.RateLimiterRegistry

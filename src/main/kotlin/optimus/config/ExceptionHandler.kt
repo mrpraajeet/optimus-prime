@@ -1,6 +1,6 @@
-package dev.praajeet.optimus.config
+package optimus.config
 
-import dev.praajeet.optimus.dto.ExceptionResponse
+import optimus.dto.ExceptionResponse
 import io.github.resilience4j.ratelimiter.RequestNotPermitted as RateLimited
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.validation.ConstraintViolationException

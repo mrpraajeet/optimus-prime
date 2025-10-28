@@ -1,13 +1,14 @@
-package dev.praajeet.optimus.service
+package optimus.service
 
-import dev.praajeet.optimus.util.MAX_PRIME
-import dev.praajeet.optimus.util.MIN_PRIME
-import dev.praajeet.optimus.util.PrimeCounter
-import dev.praajeet.optimus.util.PrimeTester
+import optimus.util.MAX_PRIME
+import optimus.util.MIN_PRIME
+import optimus.util.PrimeCounter
+import optimus.util.PrimeTester
 import org.springframework.stereotype.Service
 import java.math.BigInteger
 import kotlin.math.max
 import kotlin.math.min
+import kotlin.math.sqrt
 import kotlin.random.Random
 
 @Service
@@ -155,7 +156,7 @@ class PrimeService {
     }
 
     private fun rootIfPerfectSquare(num: Long): Long? {
-        val root = kotlin.math.sqrt(num.toDouble()).toLong()
+        val root = sqrt(num.toDouble()).toLong()
         return if (root * root == num) root else null
     }
 

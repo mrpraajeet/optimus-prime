@@ -1,4 +1,4 @@
-package dev.praajeet.optimus.util
+package optimus.util
 
 import java.math.BigInteger
 
